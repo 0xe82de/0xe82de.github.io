@@ -8,7 +8,8 @@
       src="https://kit.fontawesome.com/c265cac622.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/header.css" />
+    <link rel="stylesheet" href="/header/css-header/header.css" />
+    <link rel="stylesheet" href="/toDoList/css-toDoList/toDoList.css" />
   </head>
   <body>
     <!-- header -->
@@ -17,7 +18,7 @@
       <div class="header-main"><a href="/index.html">0xe82de</a></div>
       <!-- header-menu -->
       <ul class="header-menu">
-        <li><a href="toDoList/toDoList.html">toDoList</a></li>
+        <li><a href="">toDoList</a></li>
       </ul>
       <!-- header-icons -->
       <ul class="header-icons">
@@ -37,6 +38,38 @@
         <i class="fas fa-bars"></i>
       </a>
     </nav>
-    <h1>toDoList</h1>
+
+    <!-- toDoList -->
+    <!-- clock -->
+    <div id="toDoList">
+      <div class="js-clock">
+        <h1 class="js-title">00:00</h1>
+      </div>
+
+      <!-- name -->
+      <form class="js-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+
+      <!-- greetings -->
+      <!-- will input name -->
+      <h4 class="js-greetings greetings"></h4>
+
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+
+      <!-- will input do -->
+      <ul class="js-toDoList"></ul>
+
+      <!-- will input weather -->
+      <span class="js-weather"></span>
+    </div>
+
+    <script src="/toDoList/js-toDoList/clock.js"></script>
+    <script src="/toDoList/js-toDOList/greeting.js"></script>
+    <script src="/toDoList/js-toDOList/todo.js"></script>
+    <script src="/toDoList/js-toDOList/bg.js"></script>
+    <script src="/toDoList/js-toDOList/weather.js"></script>
   </body>
 </html>
