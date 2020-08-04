@@ -1,0 +1,43 @@
+:root {
+  --header-text-size: 30px;
+  --header-text-color: #f0ffff;
+  --header-background-color: #000000;
+
+  --text-color: #f0ffff;
+  --accent-color: pink;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background-color: var(--header-background-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-main {
+  text-align: center;
+}
+
+.header-contact ul {
+  display: flex;
+}
+
+.header-contact a {
+  color: var(--header-text-color);
+}
+
+.header-main a {
+  text-decoration: none;
+  color: var(--header-text-color);
+  font-size: var(--header-text-size);
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+}
+
+.header li {
+  list-style: none;
+}
