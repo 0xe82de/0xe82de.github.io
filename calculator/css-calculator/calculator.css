@@ -1,0 +1,94 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 7vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  font-size: 7vh;
+  font-weight: bold;
+  color: white;
+  height: 10%;
+}
+
+.cssPrints {
+  text-align: right;
+  align-items: center;
+  height: 20%;
+}
+
+.cssPrintTemp,
+.cssPrintResult {
+  height: 50%;
+  border-bottom-style: solid;
+  background-color: powderblue;
+}
+
+.cssBtns {
+  height: 60%;
+}
+
+.cssBtns button {
+  cursor: pointer;
+  font-size: 7vh;
+  border: 1px solid;
+}
+
+.cssBtns button:active {
+  outline: none;
+  transform: scale(0.98);
+  background-color: cadetblue;
+}
+
+.cssBtnRow1,
+.cssBtnRow2,
+.cssBtnRow3,
+.cssBtnRow4,
+.cssBtnRow5 {
+  display: flex;
+  height: 20%;
+}
+
+.cssBtnRow1 button,
+.cssBtnRow2 button:nth-child(4),
+.cssBtnRow3 button:nth-child(4),
+.cssBtnRow4 button:nth-child(4),
+.cssBtnRow5 button:nth-child(2) {
+  background-color: dimgray;
+}
+
+.cssBtnRow2 button:nth-child(1),
+.cssBtnRow2 button:nth-child(2),
+.cssBtnRow2 button:nth-child(3),
+.cssBtnRow3 button:nth-child(1),
+.cssBtnRow3 button:nth-child(2),
+.cssBtnRow3 button:nth-child(3),
+.cssBtnRow4 button:nth-child(1),
+.cssBtnRow4 button:nth-child(2),
+.cssBtnRow4 button:nth-child(3),
+.cssBtnRow5 button:nth-child(1) {
+  background-color: pink;
+}
+
+.cssBtns button:not(.cssBtnEqual) {
+  width: 25%;
+}
+
+.cssBtnEqual {
+  width: 50%;
+  background-color: darkslateblue;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  height: 10%;
+  font-weight: bold;
+}
