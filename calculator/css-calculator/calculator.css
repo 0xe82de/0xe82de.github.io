@@ -62,7 +62,6 @@ header {
 .cssBtnRow4 button:nth-child(4),
 .cssBtnRow5 button:nth-child(2) {
   background-color: dimgray;
-  padding: 0;
 }
 
 .cssBtnRow2 button:nth-child(1),
@@ -76,7 +75,6 @@ header {
 .cssBtnRow4 button:nth-child(3),
 .cssBtnRow5 button:nth-child(1) {
   background-color: pink;
-  padding: 0;
 }
 
 .cssBtns button:not(.cssBtnEqual) {
