@@ -38,7 +38,7 @@ header {
 .cssBtns button {
   cursor: pointer;
   font-size: 7vh;
-  border: solid;
+  border: 1px solid;
 }
 
 .cssBtns button:active {
